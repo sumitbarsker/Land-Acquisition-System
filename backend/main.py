@@ -42,6 +42,7 @@ app.add_middleware(
         "http://127.0.0.1:5177",
         "http://127.0.0.1:5178",
         "http://127.0.0.1:5179",
+        "https://sumitbarsker.github.io",
     ],
     allow_credentials=True,
     allow_methods=["*"],

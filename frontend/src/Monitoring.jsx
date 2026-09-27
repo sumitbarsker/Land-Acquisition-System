@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 import {
   RefreshCw,
   Activity,
@@ -24,8 +25,8 @@ function Monitoring({ onLandSelect }) {
 
       const [monitoringResponse, alertsResponse] =
         await Promise.all([
-          axios.get("http://127.0.0.1:8000/lands/monitoring"),
-          axios.get("http://127.0.0.1:8000/lands/alerts"),
+          axios.get(`${API_BASE_URL}/lands/monitoring`),
+          axios.get(`${API_BASE_URL}/lands/alerts`),
         ]);
 
       setMonitoring(monitoringResponse.data.monitoring || []);

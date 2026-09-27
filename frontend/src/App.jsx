@@ -1,6 +1,7 @@
 ﻿import { useEffect, useState } from "react";
 import axios from "axios";
 import RouteSurvey from "./RouteSurvey";
+import { API_BASE_URL } from "./api";
 
 import AcquisitionManagement from "./AcquisitionManagement";
 import Monitoring from "./Monitoring";
@@ -157,7 +158,7 @@ function App() {
 
   const loadDashboard = () => {
     axios
-      .get("http://127.0.0.1:8000/dashboard/summary")
+      .get(`${API_BASE_URL}/dashboard/summary`)
 
       .then((response) => {
         setDashboard(response.data);
@@ -181,7 +182,7 @@ function App() {
 
   const loadLands = () => {
     axios
-      .get("http://127.0.0.1:8000/lands/")
+      .get(`${API_BASE_URL}/lands/`)
 
       .then((response) => {
         setLands(response.data.lands || []);
@@ -201,7 +202,7 @@ function App() {
 
   const loadAlerts = () => {
     axios
-      .get("http://127.0.0.1:8000/lands/alerts")
+      .get(`${API_BASE_URL}/lands/alerts`)
 
       .then((response) => {
         setAlerts(response.data.alerts || []);

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 
 import ProjectWorkflow from "./ProjectWorkflow";
 
@@ -30,7 +31,7 @@ function Projects() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/projects/"
+        `${API_BASE_URL}/projects/`
       );
 
       setProjects(response.data.projects);
@@ -90,7 +91,7 @@ function Projects() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/projects/",
+        `${API_BASE_URL}/projects/`,
         {
           ...form,
           land_proposed: Number(form.land_proposed),

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 
 import {
   Bell,
@@ -72,15 +73,15 @@ function AcquisitionManagement() {
       ] = await Promise.all([
 
         axios.get(
-          "http://127.0.0.1:8000/notifications/"
+          `${API_BASE_URL}/notifications/`
         ),
 
         axios.get(
-          "http://127.0.0.1:8000/awards/"
+          `${API_BASE_URL}/awards/`
         ),
 
         axios.get(
-          "http://127.0.0.1:8000/compensation/"
+          `${API_BASE_URL}/compensation/`
         ),
 
       ]);
@@ -172,7 +173,7 @@ function AcquisitionManagement() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/notifications/",
+        `${API_BASE_URL}/notifications/`,
         {
           project_id:
             notificationForm.project_id,
@@ -230,7 +231,7 @@ function AcquisitionManagement() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/awards/",
+        `${API_BASE_URL}/awards/`,
         {
           project_id:
             awardForm.project_id,
@@ -287,7 +288,7 @@ function AcquisitionManagement() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/compensation/",
+        `${API_BASE_URL}/compensation/`,
         {
           project_id:
             compensationForm.project_id,
@@ -344,7 +345,7 @@ function AcquisitionManagement() {
     try {
 
       await axios.put(
-        `http://127.0.0.1:8000/compensation/${paymentForm.land_id}/payment`,
+        `${API_BASE_URL}/compensation/${paymentForm.land_id}/payment`,
         {
           disbursed_amount:
             Number(paymentForm.disbursed_amount),

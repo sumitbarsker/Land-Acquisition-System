@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 
 import {
   FileText,
@@ -82,7 +83,7 @@ function ProjectWorkflow({ project, onUpdate }) {
       }
 
       await axios.put(
-        `http://127.0.0.1:8000/projects/${project.project_id}/status`,
+        `${API_BASE_URL}/projects/${project.project_id}/status`,
         {
           proposal_status: status,
           current_stage: stage.name,

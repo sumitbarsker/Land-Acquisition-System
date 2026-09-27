@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 
 import {
   CheckCircle,
@@ -28,7 +29,7 @@ function PossessionManagement() {
       setLoading(true);
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/possession/"
+        `${API_BASE_URL}/possession/`
       );
 
       setRecords(response.data.possession || []);
@@ -51,7 +52,7 @@ function PossessionManagement() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/possession/",
+        `${API_BASE_URL}/possession/`,
         form
       );
 

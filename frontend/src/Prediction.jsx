@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Prediction.css";
-
-const API_URL = "http://127.0.0.1:8000";
+import { API_BASE_URL } from "./api";
 
 function Prediction() {
   const [lands, setLands] = useState([]);
@@ -29,7 +28,7 @@ function Prediction() {
 
   useEffect(() => {
     axios
-      .get(`${API_URL}/lands/`)
+      .get(`${API_BASE_URL}/lands/`)
       .then((response) => {
         console.log("Land records:", response.data);
         setLands(response.data.lands || []);
@@ -116,7 +115,7 @@ function Prediction() {
 
     try {
       const response = await axios.post(
-        `${API_URL}/predict/risk`,
+        `${API_BASE_URL}/predict/risk`,
         formData
       );
 

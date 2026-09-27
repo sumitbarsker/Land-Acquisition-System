@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { API_BASE_URL } from "./api";
 import "./PredictionHistory.css";
 
 function PredictionHistory() {
@@ -8,7 +9,7 @@ function PredictionHistory() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/predict/history")
+      .get(`${API_BASE_URL}/predict/history`)
       .then((response) => {
         setHistory(response.data.history);
       })

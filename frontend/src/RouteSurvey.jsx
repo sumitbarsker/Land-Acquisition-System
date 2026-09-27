@@ -1,6 +1,7 @@
 ﻿import { useState } from "react";
 import axios from "axios";
 import MapView from "./MapView";
+import { API_BASE_URL } from "./api";
 
 function RouteSurvey() {
   const [start, setStart] = useState("Bhopal");
@@ -27,7 +28,7 @@ function RouteSurvey() {
 
     try {
       const response = await axios.get(
-        "http://127.0.0.1:8000/route-survey/corridor",
+        `${API_BASE_URL}/route-survey/corridor`,
         {
           params: {
             start: start.trim(),
