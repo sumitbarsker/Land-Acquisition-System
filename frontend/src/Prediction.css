@@ -1,0 +1,672 @@
+/* =================================
+   LANDGUARD - AI PREDICTION
+   ================================= */
+
+.prediction-page {
+  padding: 0;
+  min-height: 100vh;
+  background: transparent;
+}
+
+
+/* =================================
+   HEADER
+   ================================= */
+
+.prediction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.prediction-header h1 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 28px;
+  font-weight: 750;
+
+  letter-spacing: -0.4px;
+}
+
+.prediction-header p {
+  margin: 7px 0 0;
+
+  color: #64748b;
+
+  font-size: 13.5px;
+}
+
+
+/* =================================
+   AI STATUS
+   ================================= */
+
+.ai-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 9px 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #bbf7d0;
+
+  border-radius: 20px;
+
+  color: #15803d;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.04);
+}
+
+.ai-status span {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.12);
+}
+
+
+/* =================================
+   MAIN LAYOUT
+   ================================= */
+
+.prediction-layout {
+  display: grid;
+
+  grid-template-columns: 1.15fr 0.85fr;
+
+  gap: 20px;
+
+  align-items: start;
+}
+
+
+/* =================================
+   CARDS
+   ================================= */
+
+.prediction-form,
+.prediction-result {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 14px;
+
+  padding: 23px;
+
+  box-shadow:
+    0 3px 12px rgba(15, 23, 42, 0.04);
+}
+
+.prediction-form h2,
+.prediction-result h2 {
+  margin: 0;
+
+  color: #172033;
+
+  font-size: 18px;
+
+  font-weight: 700;
+}
+
+
+/* =================================
+   FORM SUBTITLE
+   ================================= */
+
+.form-subtitle {
+  margin: 6px 0 21px;
+
+  color: #7a8496;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+
+/* =================================
+   LAND SELECTOR
+   ================================= */
+
+.land-selector {
+  margin-bottom: 20px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #eef0f4;
+}
+
+
+/* =================================
+   FORM GRID
+   ================================= */
+
+.form-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.form-group label {
+  color: #475569;
+
+  font-size: 11.5px;
+
+  font-weight: 650;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 10px 11px;
+
+  background: #ffffff;
+
+  border: 1px solid #dbe1ea;
+
+  border-radius: 8px;
+
+  color: #172033;
+
+  font-size: 12.5px;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-group input:hover,
+.form-group select:hover {
+  border-color: #cbd5e1;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 3px rgba(99, 102, 241, 0.08);
+}
+
+
+/* =================================
+   PREDICT BUTTON
+   ================================= */
+
+.predict-button {
+  width: 100%;
+
+  margin-top: 23px;
+
+  padding: 12px 15px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #4f46e5;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.predict-button:hover {
+  background: #4338ca;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 7px 16px rgba(79, 70, 229, 0.22);
+}
+
+.predict-button:active {
+  transform: translateY(0);
+}
+
+.predict-button:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+
+  transform: none;
+
+  box-shadow: none;
+}
+
+
+/* =================================
+   MODEL INFORMATION
+   ================================= */
+
+.model-info {
+  margin-top: 19px;
+
+  padding: 15px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 10px;
+}
+
+.model-info h3 {
+  margin: 0 0 12px;
+
+  color: #334155;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.model-info-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 9px;
+}
+
+.model-info-item {
+  padding: 10px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 8px;
+}
+
+.model-info-item span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #64748b;
+
+  font-size: 10px;
+}
+
+.model-info-item strong {
+  color: #1e293b;
+
+  font-size: 11.5px;
+
+  font-weight: 700;
+}
+
+
+/* =================================
+   RESULT PLACEHOLDER
+   ================================= */
+
+.result-placeholder {
+  min-height: 380px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+.prediction-symbol {
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eef2ff;
+
+  color: #4f46e5;
+
+  font-size: 18px;
+
+  font-weight: 750;
+
+  margin-bottom: 17px;
+
+  box-shadow:
+    0 0 0 8px #f8faff;
+}
+
+.result-placeholder h3 {
+  margin: 0 0 8px;
+
+  color: #273142;
+
+  font-size: 16px;
+}
+
+.result-placeholder p {
+  max-width: 330px;
+
+  margin: 0;
+
+  color: #7a8496;
+
+  font-size: 12.5px;
+
+  line-height: 1.6;
+}
+
+
+/* =================================
+   ERROR
+   ================================= */
+
+.prediction-error {
+  margin-top: 20px;
+
+  padding: 13px;
+
+  border-radius: 9px;
+
+  background: #fff1f2;
+
+  border: 1px solid #fecdd3;
+
+  color: #be123c;
+
+  text-align: center;
+
+  font-size: 12px;
+}
+
+
+/* =================================
+   RISK RESULT
+   ================================= */
+
+.risk-result {
+  margin-top: 20px;
+
+  padding: 21px;
+
+  border-radius: 12px;
+
+  text-align: center;
+}
+
+.high-risk {
+  background: #fff7f7;
+
+  border: 1px solid #fecdd3;
+}
+
+.low-risk {
+  background: #f5fff8;
+
+  border: 1px solid #bbf7d0;
+}
+
+
+/* Risk Label */
+
+.risk-label {
+  font-size: 10.5px;
+
+  font-weight: 750;
+
+  letter-spacing: 0.8px;
+}
+
+.high-risk .risk-label,
+.high-risk .risk-value {
+  color: #dc2626;
+}
+
+.low-risk .risk-label,
+.low-risk .risk-value {
+  color: #16a34a;
+}
+
+
+/* Risk Value */
+
+.risk-value {
+  margin: 8px 0;
+
+  font-size: 36px;
+
+  font-weight: 800;
+
+  letter-spacing: -1px;
+}
+
+.risk-result > p {
+  margin: 0;
+
+  color: #5f6878;
+
+  font-size: 12px;
+
+  line-height: 1.55;
+}
+
+
+/* Prediction Number */
+
+.prediction-number {
+  margin-top: 15px;
+
+  padding-top: 12px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+
+  color: #6b7280;
+
+  font-size: 10.5px;
+}
+
+
+/* =================================
+   PROBABILITY
+   ================================= */
+
+.risk-probability-bar {
+  margin-top: 17px;
+
+  text-align: left;
+}
+
+.risk-probability-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 7px;
+
+  color: #475569;
+
+  font-size: 11px;
+
+  font-weight: 650;
+}
+
+.risk-probability-header strong {
+  font-size: 12px;
+}
+
+.risk-probability-track {
+  width: 100%;
+
+  height: 8px;
+
+  background: #e5e7eb;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.risk-probability-fill {
+  height: 100%;
+
+  border-radius: 20px;
+
+  transition: width 0.5s ease;
+}
+
+.high-risk .risk-probability-fill {
+  background: #ef4444;
+}
+
+.low-risk .risk-probability-fill {
+  background: #22c55e;
+}
+
+
+/* =================================
+   RISK FACTORS
+   ================================= */
+
+.risk-factors,
+.recommended-actions {
+  margin-top: 15px;
+
+  padding: 13px;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  text-align: left;
+}
+
+.risk-factors h3,
+.recommended-actions h3 {
+  margin: 0 0 8px;
+
+  color: #334155;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.risk-factors ul,
+.recommended-actions ul {
+  margin: 0;
+
+  padding-left: 18px;
+}
+
+.risk-factors li,
+.recommended-actions li {
+  margin-bottom: 5px;
+
+  color: #64748b;
+
+  font-size: 11px;
+
+  line-height: 1.45;
+}
+
+.risk-factors li:last-child,
+.recommended-actions li:last-child {
+  margin-bottom: 0;
+}
+
+.recommended-actions {
+  background: #fafafa;
+}
+
+
+/* =================================
+   RESPONSIVE
+   ================================= */
+
+@media (max-width: 1050px) {
+
+  .prediction-layout {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .prediction-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 14px;
+  }
+
+  .prediction-header h1 {
+    font-size: 24px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .model-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-form,
+  .prediction-result {
+    padding: 18px;
+  }
+
+}

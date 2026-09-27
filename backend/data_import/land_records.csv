@@ -1,0 +1,13 @@
+﻿land_id,district,tehsil,village,khasra_number,owner_name,area_acres,latitude,longitude
+GIS-DEMO-001,Bhopal,Berasia,Bhopal,DEMO-001,Demo Parcel 1,2.5,23.2599,77.4126
+GIS-DEMO-002,Bhopal,Berasia,Bhopal,DEMO-002,Demo Parcel 2,4.2,23.2300,77.4300
+GIS-DEMO-003,Raisen,Raisen,Raisen,DEMO-003,Demo Parcel 3,5.1,23.3300,77.7800
+GIS-DEMO-004,Bhopal,Berasia,Bhopal,DEMO-004,Demo Parcel 4,3.2,23.2700,77.4500
+GIS-DEMO-005,Bhopal,Berasia,Bhopal,DEMO-005,Demo Parcel 5,2.8,23.2850,77.5000
+GIS-DEMO-006,Sehore,Sehore,Sehore,DEMO-006,Demo Parcel 6,4.6,23.2000,77.5000
+GIS-DEMO-007,Sehore,Sehore,Sehore,DEMO-007,Demo Parcel 7,3.4,23.2400,77.5600
+GIS-DEMO-008,Raisen,Raisen,Raisen,DEMO-008,Demo Parcel 8,6.2,23.3000,77.7000
+GIS-DEMO-009,Raisen,Raisen,Raisen,DEMO-009,Demo Parcel 9,2.9,23.3150,77.7400
+GIS-DEMO-010,Raisen,Raisen,Raisen,DEMO-010,Demo Parcel 10,4.8,23.3250,77.7600
+GIS-DEMO-011,Vidisha,Vidisha,Vidisha,DEMO-011,Demo Parcel 11,5.5,23.5250,77.8100
+GIS-DEMO-012,Bhopal,Berasia,Bhopal,DEMO-012,Demo Parcel 12,3.7,23.2500,77.4700

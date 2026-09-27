@@ -1,0 +1,301 @@
+land_id,district,area_acres,land_value_lakh,verification_status,legal_dispute,compensation_status,pending_days,document_completeness,ownership_clarity,current_stage,delay_risk
+ML-0001,Sehore,1.23,25.63,Clear,0,Paid,43,97,84,Verification,0
+ML-0002,Hoshangabad,1.29,12.03,Clear,0,Paid,45,91,94,Dispute Resolution,0
+ML-0003,Indore,5.04,25.86,Clear,0,Pending,21,67,59,Valuation,1
+ML-0004,Sehore,1.83,12.25,Pending,0,Paid,46,79,84,Verification,0
+ML-0005,Sehore,5.97,67.21,Disputed,0,Paid,45,54,52,Valuation,1
+ML-0006,Sehore,8.7,69.99,Pending,0,Pending,40,73,60,Compensation,1
+ML-0007,Indore,7.03,57.64,Disputed,0,Paid,34,96,65,Valuation,0
+ML-0008,Hoshangabad,3.43,74.4,Disputed,0,Pending,53,99,99,Verification,0
+ML-0009,Bhopal,8.25,35.09,Clear,0,Pending,13,91,81,Possession,0
+ML-0010,Raisen,3.38,23.5,Disputed,0,Pending,57,87,75,Compensation,1
+ML-0011,Raisen,5.59,11.82,Clear,0,Paid,40,60,100,Possession,0
+ML-0012,Sehore,4.46,49.69,Pending,0,Paid,43,96,57,Dispute Resolution,1
+ML-0013,Vidisha,2.0,37.61,Pending,0,Pending,32,98,61,Dispute Resolution,1
+ML-0014,Jabalpur,8.58,43.07,Clear,0,Pending,48,60,84,Dispute Resolution,1
+ML-0015,Dewas,3.92,6.46,Pending,0,Paid,3,65,86,Verification,0
+ML-0016,Rajgarh,8.34,78.35,Disputed,0,Paid,42,80,85,Valuation,0
+ML-0017,Betul,8.85,36.74,Clear,0,Pending,25,92,91,Compensation,0
+ML-0018,Betul,5.06,23.59,Clear,0,Paid,37,85,64,Dispute Resolution,0
+ML-0019,Bhopal,1.64,52.33,Clear,0,Paid,55,71,54,Dispute Resolution,1
+ML-0020,Jabalpur,7.02,21.07,Clear,1,Paid,50,80,76,Valuation,0
+ML-0021,Sehore,6.93,31.57,Pending,1,Paid,43,91,91,Verification,1
+ML-0022,Hoshangabad,7.55,65.04,Clear,0,Paid,12,84,78,Valuation,0
+ML-0023,Raisen,3.51,23.74,Clear,1,Paid,3,91,84,Verification,0
+ML-0024,Indore,2.5,41.42,Clear,1,Paid,10,74,50,Possession,1
+ML-0025,Rajgarh,3.57,57.24,Disputed,1,Paid,12,68,63,Verification,1
+ML-0026,Betul,1.55,28.52,Clear,1,Paid,3,82,55,Valuation,0
+ML-0027,Dewas,1.61,69.64,Pending,0,Paid,37,88,52,Dispute Resolution,1
+ML-0028,Hoshangabad,6.92,47.39,Pending,0,Paid,42,95,70,Valuation,0
+ML-0029,Hoshangabad,2.18,53.41,Pending,0,Paid,0,79,89,Dispute Resolution,0
+ML-0030,Sehore,5.84,42.94,Clear,0,Paid,56,65,73,Compensation,0
+ML-0031,Rajgarh,8.5,57.77,Disputed,0,Pending,59,92,56,Valuation,1
+ML-0032,Sehore,9.01,60.68,Clear,0,Pending,38,63,95,Compensation,0
+ML-0033,Jabalpur,5.55,23.83,Clear,0,Pending,53,67,52,Verification,1
+ML-0034,Raisen,6.73,24.65,Disputed,1,Pending,35,50,57,Verification,1
+ML-0035,Betul,1.32,32.69,Disputed,0,Pending,8,52,69,Compensation,1
+ML-0036,Vidisha,2.89,23.71,Clear,0,Pending,39,97,59,Valuation,1
+ML-0037,Raisen,8.93,6.86,Disputed,0,Pending,51,92,97,Valuation,0
+ML-0038,Raisen,8.09,13.11,Clear,1,Paid,12,79,72,Compensation,0
+ML-0039,Indore,1.21,19.48,Pending,0,Paid,49,67,72,Dispute Resolution,1
+ML-0040,Betul,3.98,7.07,Pending,0,Pending,2,56,88,Possession,0
+ML-0041,Vidisha,4.93,78.82,Clear,1,Paid,16,52,95,Possession,0
+ML-0042,Betul,9.33,45.38,Disputed,0,Pending,27,54,92,Compensation,1
+ML-0043,Vidisha,6.97,14.35,Pending,0,Pending,20,75,94,Compensation,1
+ML-0044,Raisen,2.73,54.87,Pending,0,Pending,25,85,50,Compensation,1
+ML-0045,Indore,4.87,48.5,Disputed,0,Pending,28,78,93,Valuation,0
+ML-0046,Rajgarh,8.14,76.99,Disputed,0,Paid,18,82,92,Dispute Resolution,0
+ML-0047,Sehore,8.37,61.34,Disputed,0,Paid,51,62,59,Verification,1
+ML-0048,Indore,9.86,50.85,Clear,1,Pending,56,90,86,Valuation,1
+ML-0049,Rajgarh,4.6,16.07,Disputed,0,Paid,49,77,64,Valuation,0
+ML-0050,Rajgarh,1.45,23.69,Clear,1,Paid,51,79,92,Dispute Resolution,1
+ML-0051,Dewas,3.86,61.64,Pending,1,Pending,57,60,97,Possession,1
+ML-0052,Jabalpur,7.77,67.99,Pending,1,Paid,17,78,54,Compensation,1
+ML-0053,Jabalpur,4.02,71.98,Clear,0,Paid,14,74,94,Valuation,0
+ML-0054,Sehore,4.73,29.82,Pending,1,Paid,13,76,74,Dispute Resolution,1
+ML-0055,Dewas,4.42,5.44,Pending,0,Pending,54,76,84,Dispute Resolution,1
+ML-0056,Indore,5.39,25.47,Pending,0,Pending,21,92,93,Possession,0
+ML-0057,Rajgarh,9.28,78.55,Disputed,0,Pending,37,86,92,Verification,0
+ML-0058,Hoshangabad,2.22,39.63,Clear,0,Pending,20,63,79,Compensation,0
+ML-0059,Hoshangabad,3.5,76.34,Pending,0,Paid,30,51,97,Dispute Resolution,1
+ML-0060,Vidisha,3.02,10.15,Disputed,0,Paid,60,65,62,Verification,0
+ML-0061,Raisen,3.15,40.52,Clear,0,Pending,44,66,99,Compensation,0
+ML-0062,Dewas,6.47,61.09,Clear,0,Pending,6,87,51,Compensation,0
+ML-0063,Hoshangabad,4.57,58.63,Clear,0,Paid,44,99,69,Dispute Resolution,0
+ML-0064,Dewas,8.04,31.04,Pending,0,Paid,32,91,71,Verification,0
+ML-0065,Rajgarh,1.95,77.06,Disputed,1,Paid,27,61,96,Dispute Resolution,1
+ML-0066,Dewas,8.27,45.36,Pending,1,Pending,52,96,87,Compensation,1
+ML-0067,Indore,8.48,11.5,Pending,0,Pending,36,89,92,Possession,0
+ML-0068,Bhopal,5.45,29.38,Pending,0,Pending,51,66,71,Compensation,1
+ML-0069,Jabalpur,6.0,43.75,Clear,0,Paid,46,76,81,Dispute Resolution,0
+ML-0070,Rajgarh,6.81,41.81,Clear,0,Pending,14,75,94,Valuation,0
+ML-0071,Dewas,4.32,46.51,Pending,1,Pending,22,94,79,Compensation,1
+ML-0072,Jabalpur,3.07,59.1,Pending,0,Paid,12,63,97,Possession,0
+ML-0073,Dewas,9.79,44.35,Pending,0,Paid,18,64,73,Valuation,0
+ML-0074,Bhopal,7.37,14.49,Clear,0,Pending,44,58,90,Possession,1
+ML-0075,Bhopal,6.17,40.2,Pending,0,Paid,3,66,80,Verification,0
+ML-0076,Hoshangabad,5.43,48.28,Disputed,0,Paid,9,86,69,Verification,0
+ML-0077,Sehore,6.02,36.21,Disputed,0,Pending,28,78,69,Dispute Resolution,1
+ML-0078,Jabalpur,6.12,9.52,Disputed,0,Paid,40,63,66,Verification,0
+ML-0079,Indore,2.56,10.63,Clear,1,Pending,44,88,80,Compensation,1
+ML-0080,Indore,3.59,26.2,Pending,0,Paid,59,66,100,Dispute Resolution,1
+ML-0081,Hoshangabad,2.03,21.86,Clear,0,Paid,4,53,60,Compensation,0
+ML-0082,Dewas,9.29,37.94,Pending,0,Pending,60,67,82,Dispute Resolution,1
+ML-0083,Rajgarh,1.72,7.99,Pending,0,Pending,1,55,64,Dispute Resolution,1
+ML-0084,Bhopal,10.0,55.42,Pending,0,Paid,30,83,91,Possession,0
+ML-0085,Raisen,9.97,37.69,Pending,0,Pending,22,76,71,Compensation,1
+ML-0086,Raisen,3.97,57.03,Pending,1,Paid,29,55,70,Compensation,1
+ML-0087,Sehore,9.73,35.31,Disputed,0,Pending,26,53,62,Dispute Resolution,1
+ML-0088,Dewas,7.81,51.91,Clear,0,Pending,35,58,68,Possession,1
+ML-0089,Sehore,1.26,52.25,Clear,0,Pending,35,50,85,Possession,1
+ML-0090,Indore,9.93,73.47,Pending,0,Paid,31,95,68,Dispute Resolution,1
+ML-0091,Hoshangabad,8.51,78.52,Clear,1,Paid,24,62,88,Dispute Resolution,1
+ML-0092,Sehore,3.49,64.25,Pending,0,Pending,52,50,68,Compensation,1
+ML-0093,Dewas,9.99,41.72,Clear,1,Pending,22,71,85,Dispute Resolution,1
+ML-0094,Rajgarh,9.4,70.22,Disputed,0,Pending,14,99,76,Verification,0
+ML-0095,Rajgarh,7.35,65.86,Pending,0,Pending,2,58,82,Dispute Resolution,1
+ML-0096,Sehore,8.87,38.02,Disputed,1,Paid,46,59,76,Valuation,1
+ML-0097,Rajgarh,8.03,24.88,Disputed,1,Paid,54,71,93,Dispute Resolution,1
+ML-0098,Vidisha,6.64,71.56,Pending,0,Paid,15,90,93,Compensation,0
+ML-0099,Sehore,4.91,12.38,Disputed,0,Pending,10,94,69,Verification,0
+ML-0100,Vidisha,8.17,27.0,Pending,1,Paid,15,83,76,Dispute Resolution,1
+ML-0101,Raisen,2.58,50.71,Pending,0,Pending,58,87,59,Valuation,1
+ML-0102,Jabalpur,5.14,55.01,Pending,0,Paid,4,78,72,Dispute Resolution,0
+ML-0103,Hoshangabad,7.21,39.26,Pending,0,Pending,54,80,56,Valuation,1
+ML-0104,Dewas,4.23,27.19,Disputed,0,Paid,53,92,75,Compensation,0
+ML-0105,Dewas,8.79,63.37,Clear,1,Pending,49,64,88,Compensation,1
+ML-0106,Indore,6.59,55.83,Disputed,0,Paid,57,90,91,Verification,0
+ML-0107,Rajgarh,1.3,32.36,Clear,0,Pending,20,97,76,Valuation,0
+ML-0108,Raisen,8.08,70.73,Pending,0,Paid,16,80,68,Compensation,0
+ML-0109,Rajgarh,9.67,15.56,Clear,1,Pending,5,100,75,Verification,0
+ML-0110,Betul,2.11,32.64,Disputed,0,Pending,52,90,73,Verification,1
+ML-0111,Rajgarh,1.23,71.32,Disputed,0,Paid,41,54,90,Possession,1
+ML-0112,Hoshangabad,2.05,8.4,Clear,0,Pending,7,56,65,Dispute Resolution,1
+ML-0113,Hoshangabad,5.08,55.29,Disputed,1,Paid,56,76,91,Verification,1
+ML-0114,Dewas,4.67,76.36,Clear,0,Paid,28,78,65,Compensation,0
+ML-0115,Vidisha,5.9,78.34,Pending,0,Pending,17,62,57,Possession,1
+ML-0116,Indore,6.78,49.79,Clear,0,Pending,15,58,100,Dispute Resolution,1
+ML-0117,Sehore,8.47,46.57,Disputed,0,Paid,21,99,59,Dispute Resolution,1
+ML-0118,Jabalpur,8.73,15.85,Clear,0,Paid,7,92,51,Valuation,0
+ML-0119,Vidisha,8.11,22.84,Pending,0,Paid,16,53,58,Possession,1
+ML-0120,Sehore,7.71,40.72,Pending,0,Pending,32,64,89,Verification,1
+ML-0121,Jabalpur,5.12,77.3,Clear,1,Pending,27,93,56,Possession,1
+ML-0122,Sehore,9.09,29.16,Clear,0,Paid,17,89,90,Dispute Resolution,0
+ML-0123,Vidisha,4.43,49.8,Pending,1,Pending,6,100,94,Verification,0
+ML-0124,Indore,4.87,71.61,Pending,0,Pending,25,76,96,Verification,0
+ML-0125,Hoshangabad,3.81,24.12,Clear,1,Paid,5,55,55,Possession,1
+ML-0126,Vidisha,8.31,46.73,Disputed,0,Paid,26,72,92,Possession,0
+ML-0127,Jabalpur,6.4,31.37,Disputed,0,Paid,42,80,64,Verification,0
+ML-0128,Betul,4.31,62.2,Disputed,0,Pending,54,85,99,Dispute Resolution,1
+ML-0129,Betul,1.24,74.68,Disputed,0,Paid,11,67,94,Compensation,0
+ML-0130,Vidisha,1.05,70.24,Disputed,1,Paid,9,97,90,Verification,0
+ML-0131,Betul,2.94,36.49,Pending,0,Pending,19,96,70,Dispute Resolution,1
+ML-0132,Sehore,8.95,16.67,Disputed,0,Paid,17,78,92,Possession,0
+ML-0133,Dewas,4.98,25.49,Disputed,0,Pending,27,57,68,Dispute Resolution,1
+ML-0134,Betul,7.0,8.41,Pending,0,Paid,13,69,63,Valuation,0
+ML-0135,Jabalpur,3.95,5.58,Disputed,1,Paid,8,74,84,Valuation,0
+ML-0136,Betul,8.5,65.47,Clear,1,Paid,27,51,79,Verification,1
+ML-0137,Dewas,4.86,35.33,Disputed,1,Pending,7,75,51,Compensation,1
+ML-0138,Dewas,5.14,56.72,Pending,0,Pending,54,56,65,Possession,1
+ML-0139,Hoshangabad,5.72,34.68,Pending,0,Paid,21,99,60,Verification,0
+ML-0140,Sehore,5.78,19.54,Pending,0,Paid,15,56,59,Compensation,1
+ML-0141,Raisen,6.42,62.02,Disputed,0,Paid,60,99,90,Possession,0
+ML-0142,Dewas,7.84,38.67,Disputed,0,Pending,9,78,54,Possession,1
+ML-0143,Jabalpur,8.17,49.36,Pending,0,Pending,29,78,52,Verification,1
+ML-0144,Jabalpur,1.69,69.82,Clear,1,Pending,37,85,100,Verification,1
+ML-0145,Dewas,6.87,29.11,Pending,0,Paid,28,56,71,Verification,1
+ML-0146,Raisen,1.35,58.07,Pending,0,Pending,23,68,74,Possession,1
+ML-0147,Dewas,1.47,52.32,Pending,0,Pending,6,85,93,Possession,0
+ML-0148,Jabalpur,7.51,54.24,Disputed,0,Pending,5,87,92,Valuation,0
+ML-0149,Jabalpur,9.71,57.39,Pending,0,Paid,19,85,74,Compensation,0
+ML-0150,Betul,1.84,55.28,Disputed,0,Paid,23,69,61,Valuation,0
+ML-0151,Rajgarh,2.73,80.0,Clear,0,Pending,54,100,56,Dispute Resolution,1
+ML-0152,Betul,1.34,30.26,Disputed,0,Pending,9,60,61,Dispute Resolution,1
+ML-0153,Rajgarh,1.39,32.32,Disputed,0,Pending,39,68,98,Possession,1
+ML-0154,Betul,3.15,77.42,Pending,0,Pending,43,86,78,Possession,1
+ML-0155,Hoshangabad,5.53,36.4,Clear,0,Paid,55,66,53,Possession,0
+ML-0156,Betul,9.41,58.36,Disputed,0,Pending,5,98,60,Compensation,0
+ML-0157,Betul,2.33,37.81,Clear,1,Pending,59,51,76,Verification,1
+ML-0158,Betul,4.37,33.96,Clear,0,Paid,1,70,56,Compensation,0
+ML-0159,Raisen,1.34,73.8,Pending,0,Pending,28,89,50,Verification,1
+ML-0160,Jabalpur,2.94,16.21,Disputed,1,Paid,49,68,65,Compensation,1
+ML-0161,Bhopal,3.15,52.92,Disputed,1,Paid,7,81,88,Dispute Resolution,0
+ML-0162,Betul,6.18,58.89,Pending,1,Paid,39,72,65,Dispute Resolution,1
+ML-0163,Raisen,6.98,11.42,Pending,0,Paid,24,80,52,Possession,0
+ML-0164,Jabalpur,7.73,31.78,Clear,0,Paid,46,92,90,Verification,0
+ML-0165,Vidisha,2.2,31.42,Pending,0,Pending,44,80,90,Valuation,0
+ML-0166,Sehore,7.44,75.77,Clear,0,Paid,2,100,62,Verification,0
+ML-0167,Jabalpur,5.64,79.18,Disputed,1,Pending,2,98,91,Valuation,0
+ML-0168,Vidisha,8.76,8.59,Disputed,0,Pending,7,73,77,Possession,0
+ML-0169,Hoshangabad,4.05,19.01,Disputed,1,Pending,59,83,67,Verification,1
+ML-0170,Sehore,4.88,79.63,Clear,0,Pending,6,55,70,Compensation,0
+ML-0171,Rajgarh,6.42,36.96,Disputed,1,Pending,28,52,96,Compensation,1
+ML-0172,Hoshangabad,3.47,78.5,Clear,0,Pending,23,82,97,Valuation,0
+ML-0173,Raisen,8.64,55.86,Pending,0,Paid,4,65,99,Compensation,0
+ML-0174,Hoshangabad,9.55,7.43,Clear,1,Pending,23,78,98,Verification,1
+ML-0175,Raisen,5.77,34.85,Disputed,0,Paid,7,51,97,Valuation,0
+ML-0176,Betul,4.48,47.13,Pending,0,Pending,13,89,68,Possession,0
+ML-0177,Sehore,2.22,10.55,Clear,1,Paid,51,93,70,Compensation,1
+ML-0178,Betul,5.88,71.85,Clear,0,Pending,32,64,57,Valuation,1
+ML-0179,Indore,8.11,6.97,Disputed,0,Pending,51,85,58,Dispute Resolution,1
+ML-0180,Sehore,3.78,79.97,Disputed,1,Pending,49,76,86,Verification,1
+ML-0181,Vidisha,6.78,38.75,Disputed,0,Paid,56,99,85,Dispute Resolution,0
+ML-0182,Raisen,4.89,73.3,Clear,0,Paid,19,60,60,Compensation,0
+ML-0183,Vidisha,9.53,43.92,Pending,0,Pending,12,90,85,Compensation,0
+ML-0184,Jabalpur,6.53,12.01,Disputed,0,Paid,10,92,89,Dispute Resolution,0
+ML-0185,Dewas,1.37,69.78,Clear,0,Pending,41,63,99,Dispute Resolution,1
+ML-0186,Dewas,6.75,42.35,Disputed,0,Pending,30,65,93,Possession,1
+ML-0187,Rajgarh,1.66,9.49,Pending,1,Pending,29,63,71,Dispute Resolution,1
+ML-0188,Vidisha,8.75,28.95,Pending,1,Paid,48,73,82,Dispute Resolution,1
+ML-0189,Vidisha,3.18,14.19,Pending,0,Paid,6,53,68,Possession,0
+ML-0190,Hoshangabad,3.23,69.9,Clear,0,Pending,12,98,60,Possession,0
+ML-0191,Rajgarh,5.49,28.14,Clear,0,Pending,32,79,65,Valuation,0
+ML-0192,Vidisha,1.44,26.1,Disputed,1,Pending,34,50,56,Possession,1
+ML-0193,Jabalpur,7.55,62.29,Pending,0,Pending,3,86,85,Valuation,0
+ML-0194,Betul,3.6,33.98,Pending,0,Paid,8,56,75,Compensation,0
+ML-0195,Betul,9.45,61.62,Clear,1,Paid,2,52,58,Compensation,1
+ML-0196,Betul,5.11,50.47,Disputed,0,Pending,59,89,70,Valuation,1
+ML-0197,Dewas,7.65,27.44,Pending,1,Pending,30,51,73,Compensation,1
+ML-0198,Hoshangabad,6.25,64.76,Disputed,0,Pending,16,91,100,Dispute Resolution,0
+ML-0199,Indore,7.49,48.76,Clear,1,Paid,52,93,65,Verification,0
+ML-0200,Sehore,2.72,38.08,Pending,0,Pending,44,63,76,Dispute Resolution,1
+ML-0201,Rajgarh,8.86,60.19,Clear,0,Paid,35,70,92,Possession,0
+ML-0202,Hoshangabad,3.82,17.99,Disputed,0,Pending,43,99,96,Compensation,1
+ML-0203,Rajgarh,2.73,23.49,Disputed,0,Paid,60,69,99,Compensation,0
+ML-0204,Rajgarh,3.85,31.16,Disputed,0,Pending,7,86,93,Dispute Resolution,0
+ML-0205,Hoshangabad,8.37,76.6,Clear,0,Paid,18,95,55,Compensation,0
+ML-0206,Jabalpur,7.73,21.05,Disputed,0,Pending,8,56,89,Dispute Resolution,1
+ML-0207,Indore,1.46,72.89,Clear,0,Paid,6,76,71,Possession,0
+ML-0208,Raisen,1.05,46.28,Clear,1,Pending,30,91,62,Compensation,1
+ML-0209,Jabalpur,6.81,73.1,Clear,0,Paid,58,61,76,Valuation,0
+ML-0210,Hoshangabad,8.09,18.97,Disputed,0,Paid,0,69,86,Dispute Resolution,0
+ML-0211,Vidisha,3.56,79.18,Disputed,1,Paid,54,82,79,Compensation,1
+ML-0212,Sehore,3.98,59.83,Disputed,0,Paid,0,97,71,Compensation,0
+ML-0213,Indore,2.58,69.21,Pending,1,Pending,5,75,92,Verification,1
+ML-0214,Raisen,5.3,75.19,Clear,0,Pending,15,78,98,Compensation,0
+ML-0215,Jabalpur,6.24,47.97,Pending,0,Paid,3,92,57,Possession,0
+ML-0216,Raisen,4.65,42.69,Disputed,0,Paid,40,68,73,Dispute Resolution,1
+ML-0217,Indore,9.62,40.86,Pending,0,Pending,44,85,80,Dispute Resolution,1
+ML-0218,Indore,7.12,49.69,Clear,1,Pending,4,86,57,Verification,1
+ML-0219,Betul,2.82,45.25,Clear,0,Pending,7,93,63,Dispute Resolution,0
+ML-0220,Sehore,9.09,38.41,Clear,1,Paid,32,76,79,Dispute Resolution,1
+ML-0221,Betul,5.16,65.52,Disputed,0,Pending,16,50,97,Valuation,1
+ML-0222,Sehore,1.41,30.84,Clear,0,Paid,59,80,52,Compensation,0
+ML-0223,Raisen,7.92,62.44,Disputed,1,Pending,57,74,78,Possession,1
+ML-0224,Sehore,7.14,54.63,Disputed,0,Pending,7,61,84,Possession,0
+ML-0225,Raisen,7.55,21.7,Clear,0,Pending,29,93,96,Dispute Resolution,0
+ML-0226,Betul,4.41,22.22,Pending,0,Paid,17,62,96,Verification,0
+ML-0227,Hoshangabad,6.53,75.22,Clear,0,Paid,4,56,88,Verification,0
+ML-0228,Dewas,7.05,70.42,Clear,0,Pending,28,64,84,Valuation,0
+ML-0229,Raisen,5.54,26.69,Disputed,0,Pending,15,69,59,Dispute Resolution,1
+ML-0230,Hoshangabad,3.7,9.57,Disputed,0,Pending,35,81,53,Compensation,1
+ML-0231,Betul,3.87,36.22,Clear,0,Pending,11,98,84,Possession,0
+ML-0232,Indore,3.71,58.07,Pending,0,Pending,26,85,83,Valuation,0
+ML-0233,Indore,3.29,29.77,Clear,1,Pending,5,84,96,Valuation,0
+ML-0234,Jabalpur,4.39,50.37,Clear,0,Paid,51,98,87,Dispute Resolution,0
+ML-0235,Rajgarh,2.88,73.03,Pending,0,Paid,59,62,97,Verification,0
+ML-0236,Indore,7.26,57.78,Pending,0,Pending,49,68,74,Possession,1
+ML-0237,Vidisha,3.78,31.97,Pending,1,Paid,51,96,80,Compensation,1
+ML-0238,Vidisha,3.82,8.43,Clear,0,Paid,16,85,87,Dispute Resolution,0
+ML-0239,Jabalpur,2.37,29.74,Pending,0,Pending,35,91,93,Compensation,1
+ML-0240,Rajgarh,9.7,53.13,Pending,1,Paid,46,100,72,Valuation,1
+ML-0241,Betul,5.39,73.77,Disputed,0,Paid,53,54,92,Verification,1
+ML-0242,Hoshangabad,2.24,52.3,Clear,0,Paid,13,82,79,Compensation,0
+ML-0243,Dewas,6.74,75.04,Pending,1,Paid,0,84,85,Possession,0
+ML-0244,Bhopal,5.76,25.61,Pending,0,Pending,51,61,56,Verification,1
+ML-0245,Raisen,3.17,51.48,Pending,0,Pending,50,75,55,Compensation,1
+ML-0246,Rajgarh,6.09,79.27,Clear,0,Paid,41,91,98,Verification,0
+ML-0247,Hoshangabad,4.41,46.45,Clear,0,Paid,5,81,77,Compensation,0
+ML-0248,Sehore,9.05,73.94,Clear,0,Pending,17,52,54,Compensation,1
+ML-0249,Dewas,6.92,18.45,Pending,0,Paid,37,59,98,Possession,1
+ML-0250,Jabalpur,2.46,23.04,Pending,0,Pending,48,97,58,Verification,1
+ML-0251,Vidisha,1.48,37.78,Clear,0,Pending,49,70,51,Compensation,1
+ML-0252,Rajgarh,3.05,46.48,Pending,1,Paid,43,87,92,Possession,1
+ML-0253,Dewas,3.66,23.48,Clear,0,Pending,9,74,95,Valuation,0
+ML-0254,Vidisha,4.25,11.86,Pending,1,Pending,48,67,56,Valuation,1
+ML-0255,Raisen,4.88,46.77,Disputed,1,Paid,1,55,72,Dispute Resolution,1
+ML-0256,Dewas,6.38,29.33,Pending,0,Pending,26,74,99,Verification,0
+ML-0257,Indore,6.15,17.72,Pending,0,Paid,17,69,67,Possession,0
+ML-0258,Sehore,2.5,25.7,Pending,1,Paid,23,66,65,Possession,1
+ML-0259,Dewas,2.76,13.02,Pending,0,Pending,21,89,74,Compensation,1
+ML-0260,Vidisha,4.88,66.77,Disputed,0,Pending,20,88,94,Valuation,0
+ML-0261,Vidisha,2.6,34.87,Pending,0,Pending,36,100,65,Compensation,1
+ML-0262,Jabalpur,8.35,34.47,Clear,0,Paid,43,99,85,Verification,0
+ML-0263,Indore,4.95,26.85,Disputed,0,Pending,43,81,58,Compensation,1
+ML-0264,Jabalpur,6.93,58.64,Pending,0,Pending,38,80,87,Possession,0
+ML-0265,Betul,9.31,70.22,Pending,0,Pending,44,84,88,Verification,0
+ML-0266,Indore,6.92,31.63,Disputed,0,Pending,48,71,100,Possession,1
+ML-0267,Bhopal,1.89,21.65,Disputed,0,Pending,23,75,79,Dispute Resolution,1
+ML-0268,Raisen,4.1,6.84,Clear,0,Pending,58,55,57,Valuation,1
+ML-0269,Jabalpur,4.09,63.82,Disputed,1,Pending,30,56,78,Possession,1
+ML-0270,Sehore,3.7,65.76,Clear,0,Pending,41,56,93,Valuation,1
+ML-0271,Betul,2.57,17.01,Disputed,1,Pending,14,75,90,Valuation,1
+ML-0272,Hoshangabad,4.56,60.3,Clear,1,Pending,24,50,95,Valuation,1
+ML-0273,Jabalpur,7.77,65.65,Clear,0,Paid,23,70,62,Possession,0
+ML-0274,Jabalpur,7.04,41.71,Disputed,0,Pending,39,75,87,Verification,1
+ML-0275,Vidisha,8.61,51.3,Disputed,0,Paid,43,58,70,Verification,1
+ML-0276,Jabalpur,2.05,33.0,Clear,1,Pending,38,58,86,Possession,1
+ML-0277,Raisen,5.38,45.3,Disputed,0,Paid,31,68,58,Valuation,1
+ML-0278,Rajgarh,6.57,69.91,Clear,1,Paid,12,74,85,Dispute Resolution,0
+ML-0279,Hoshangabad,7.16,36.17,Pending,1,Paid,5,86,51,Valuation,1
+ML-0280,Bhopal,3.47,45.32,Clear,1,Pending,35,82,57,Dispute Resolution,1
+ML-0281,Jabalpur,7.98,66.75,Pending,0,Pending,34,63,77,Verification,1
+ML-0282,Jabalpur,8.87,7.42,Pending,0,Paid,28,57,99,Valuation,0
+ML-0283,Dewas,7.2,69.58,Disputed,1,Paid,39,58,100,Valuation,1
+ML-0284,Bhopal,6.13,44.92,Disputed,0,Pending,45,68,68,Dispute Resolution,1
+ML-0285,Betul,9.87,55.95,Clear,0,Pending,58,53,67,Valuation,1
+ML-0286,Indore,2.32,29.16,Clear,1,Pending,9,86,90,Compensation,0
+ML-0287,Hoshangabad,5.07,52.52,Clear,1,Pending,44,73,79,Possession,1
+ML-0288,Dewas,1.02,63.06,Disputed,0,Pending,40,92,94,Compensation,1
+ML-0289,Betul,4.58,77.61,Clear,1,Pending,20,68,71,Dispute Resolution,1
+ML-0290,Raisen,6.1,41.4,Pending,0,Paid,6,90,100,Possession,0
+ML-0291,Sehore,9.36,16.85,Pending,0,Pending,12,94,58,Compensation,1
+ML-0292,Jabalpur,1.84,32.03,Clear,0,Paid,3,75,90,Compensation,0
+ML-0293,Hoshangabad,6.9,57.78,Clear,0,Pending,4,58,87,Valuation,0
+ML-0294,Rajgarh,1.08,57.17,Clear,1,Paid,30,54,64,Possession,1
+ML-0295,Sehore,1.93,32.57,Pending,0,Pending,49,98,58,Valuation,1
+ML-0296,Betul,6.07,50.77,Clear,1,Pending,46,63,90,Valuation,1
+ML-0297,Dewas,7.18,69.5,Clear,0,Paid,48,57,87,Possession,0
+ML-0298,Hoshangabad,3.83,15.49,Pending,0,Paid,35,88,88,Dispute Resolution,0
+ML-0299,Bhopal,8.63,54.38,Pending,0,Paid,47,75,68,Verification,0
+ML-0300,Rajgarh,4.47,23.08,Disputed,0,Paid,23,70,58,Possession,1
