@@ -73,3 +73,6 @@ app.include_router(projects_router)
 app.include_router(acquisition_router)
 app.include_router(possession_router)
 app.include_router(route_survey_router)
+
+from backend.routes.import_data import router as import_router
+app.include_router(import_router)
