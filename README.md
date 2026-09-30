@@ -1,6 +1,6 @@
 # Land Acquisition Management System
 
-A full-stack application for managing land acquisition records, project workflows, possession, monitoring, GIS parcels, and route surveys.
+A full-stack application for managing land acquisition records, project workflows, possession, monitoring, GIS parcels, and route surveys .
 
 ## Features
 
